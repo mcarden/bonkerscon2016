@@ -1,0 +1,43 @@
+Crystal Radio
+=============
+
+Day 1 - A 45 min intro to basic radio theory. Maybe with some Marconi et al thrown in.
+Need to cover RF spectrum, modulation, antennas, atmospherics etc.
+Possible crystal set demo.
+
+Day 2 - build a working crystal set.
+
+
+WSPR radio
+==========
+
+Day 1- Explain Weak Signals with a light dusting of radio theory.
+Demo of running WSPR software on linux.
+
+Day 2 -  build and use a WSPR receiver.
+
+
+ADSB
+====
+
+Day 1 - Long intro to and demo of ADSB
+Day 2 - make an ADSB antenna and find planes
+
+
+FM Radio
+========
+
+Day 1 - Radio theory with a focus on FM and all its enhancements (like RDS)
+Day 2 - Either build an FM Rx or decode stuff with a dongle and software
+
+Regen receivers
+===============
+
+Day 1 - Olde fashioned radio (AM or SSB) can be received several ways.
+Superhet has its followers.
+Regen is an option.
+Demo regen.
+
+Day 2 - Build and test a regen receiver.
+
+
