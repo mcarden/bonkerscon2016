@@ -1,0 +1,22 @@
+# Set a font size of 11
+vim .config/lxterminal/lxterminal.conf
+
+# Set a sane 72x16 size for a terminal
+sudo vim /usr/share/applications/lxterminal.desktop
+
+(by appending --geometry=72x16 to the EXEC line at the bottom)
+
+# make ssh easier (doing it in three steps to make sure it works)
+wget http://github.com/mcarden.keys
+mkdir .ssh
+mv mcarden.keys .ssh/authorized_keys
+
+sudo apt-get install libqt5gui5 libqt5core5a libqt5network5
+sudo apt-get install libqt5widgets5 libqt5svg5 libportaudio2
+wget https://github.com/csete/gqrx/releases/download/v2.6/gqrx-2.6-rpi3-1.tar.xztar xvf gqrx-2.6-rpi3-1.tar.xz
+cd gqrx-2.6-rpi3-1/
+./setup_gqrx.sh
+
+# Now get off ssh from your laptop and use the Pi itself (or it won't work)
+./run_gqrx.sh
+
