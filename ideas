@@ -1,55 +1,53 @@
+Radio Intro - from spark gaps to SDR
+====================================
+
+DC, AC.
+Frequency and wavelength
+DC to Daylight: Radio, Light, Xrays - all electromagnetic radiation.
+Wikipedia page on propagation.
+antennas
+propagation and the ionosphere
+modulation AM, FM, SSB, FSK, PSK, BPSK and their 'official' names
+Radio receivers: crystal set, TRF, Regen, Superhet
+SDR - simplify hardware (computers not simple) and use software.
+Anatomy of an SDR dongle.
+SDR demo via CubicSDR and/or ShinySDR.
+What to listen to.
+Identifying signals.
+
+
 SDR
 ===
 
 I/Q data: http://www.ni.com/tutorial/4805/en/ 
-
-Crystal Radio
-=============
-
-Day 1 - A 45 min intro to basic radio theory. Maybe with some Marconi et al thrown in.
-Need to cover RF spectrum, modulation, antennas, atmospherics etc.
-Possible crystal set demo.
-
-Day 2 - build a working crystal set.
 
 
 WSPR radio
 ==========
 
 Day 1- Explain Weak Signals with a light dusting of radio theory.
+Inverse square law of propagation.
 Demo of running WSPR software on linux.
 
 Day 2 -  build and use a WSPR receiver.
 
-
-ADSB
-====
-
-Day 1 - Long intro to and demo of ADSB
-Day 2 - make an ADSB antenna and find planes
-
-
-FM Radio
+OuterNet
 ========
 
-Day 1 - Radio theory with a focus on FM and all its enhancements (like RDS)
-Day 2 - Either build an FM Rx or decode stuff with a dongle and software
+What is it?
+How do you receive?
+Bought vs Home made antenna
+
 
 Regen receivers
 ===============
 
 Day 1 - Olde fashioned radio (AM or SSB) can be received several ways.
-Superhet has its followers.
-Regen is an option.
+TRF: RF amp, detector, AF amp.
+Superhet: Improve on TRF with staged amplification and 'untuned' amplification at IF.
+Regen is an option: Take advantage of RF amp feedback to increase gain.
 Demo regen.
 
 Day 2 - Build and test a regen receiver.
 
-Solar Powered ADSB station
-==========================
-
-How to run a Raspberry Pi from a battery and a panel
-What does a decent antenna look like
-Getting your data online and useful
-Nice software setup (dump1090 forks)
 
