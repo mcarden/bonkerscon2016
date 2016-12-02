@@ -1,3 +1,8 @@
 spark_transmitter	http://www.lessmiths.com/~kjsmith/crystal/gap.shtml
-crystal_set_schematic	https://upload.wikimedia.org/wikipedia/commons/d/d1/Crystal_radio_with_impedance_matching.svg
+regen_circuit		http://www.electroniq.net/radio-frequency/am-regenerative-receiver.html
+fancy_crystal_set	http://www.crystalradio.us/crystalradios/
+trf_block		https://upload.wikimedia.org/wikipedia/commons
+trf_radio_1924		https://upload.wikimedia.org/wikipedia/commons
+superhet_block		https://upload.wikimedia.org/wikipedia/commons
+rtl_sdr_block		http://aaronscher.com/wireless_com_SDR/docs/rtl_sdr_block.jpg
 
